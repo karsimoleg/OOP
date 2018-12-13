@@ -1,0 +1,33 @@
+﻿  Source.cpp
+c:\proekt\helroma\helroma\map.h(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\proekt\helroma\helroma\view.h(23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\view.h(27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\view.h(31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\view.h(34): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(31): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(49): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(67): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(68): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(78): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(86): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(155): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(157): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(157): warning C4305: аргумент: усечение из "double" в "float"
+c:\proekt\helroma\helroma\source.cpp(178): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(195): warning C4305: =: усечение из "double" в "float"
+c:\proekt\helroma\helroma\source.cpp(196): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(202): warning C4305: =: усечение из "double" в "float"
+c:\proekt\helroma\helroma\source.cpp(203): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(209): warning C4305: =: усечение из "double" в "float"
+c:\proekt\helroma\helroma\source.cpp(210): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(216): warning C4305: =: усечение из "double" в "float"
+c:\proekt\helroma\helroma\source.cpp(218): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(231): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(232): warning C4018: >: несоответствие типов со знаком и без знака
+c:\proekt\helroma\helroma\source.cpp(232): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(233): warning C4018: >: несоответствие типов со знаком и без знака
+c:\proekt\helroma\helroma\source.cpp(233): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(234): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(236): warning C4244: +=: преобразование "float" в "int", возможна потеря данных
+c:\proekt\helroma\helroma\source.cpp(257): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  helroma.vcxproj -> C:\proekt\helroma\x64\Debug\helroma.exe
