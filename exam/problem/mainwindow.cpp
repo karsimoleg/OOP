@@ -4,16 +4,16 @@
 
 
 
-Problem* pr1 = new Problem("Прогррама не скомпилирована", "FATAL_ERROR", 2);
-Problem* pr2= new Problem("Не правильно присвоена переменная ", "FATAL_ERROR", 1);
-Problem* pr3= new Problem("Файл не найден", "FATAL_ERROR", 10);
-Problem* pr4= new Problem("ошибка при открытии sln", "ERROR", 3);
-Problem* pr5= new Problem("В пути найдены русские символы", "ERROR", 1);
-Problem* pr6= new Problem("Компилятор не найден", "WARNING", 2);
-Problem* pr7= new Problem("Даный путь не найден", "WARNING", 4);
-Problem* pr8= new Problem("Библиотека не подключена", "WARNING", 2);
-Problem* pr9= new Problem("Ошибка установки", "WARNING", 5);
-Problem* pr10= new Problem("Не удалось открыть проэкт", "WARNING", 5);
+Problem* pr1 = new Problem("Прогррама не скомпилирована","Ошибка" ,2);
+Problem* pr2= new Problem("Не правильно присвоена переменная ", "Ошибка", 1);
+Problem* pr3= new Problem("Файл не найден", "Ошибка", 10);
+Problem* pr4= new Problem("ошибка при открытии sln", "Ошибка", 3);
+Problem* pr5= new Problem("В пути найдены русские символы", "Ошибка", 1);
+Problem* pr6= new Problem("Компилятор не найден", "Ошибка", 2);
+Problem* pr7= new Problem("Даный путь не найден", "Ошибка", 4);
+Problem* pr8= new Problem("Библиотека не подключена", "Ошибка", 2);
+Problem* pr9= new Problem("Ошибка установки", "Ошибка", 5);
+Problem* pr10= new Problem("Не удалось открыть проэкт", "Ошибка", 5);
 
 Program* MSVS = new Program("Visual C#",
                             vector<Problem*>{pr4,pr10});
