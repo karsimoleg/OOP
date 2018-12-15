@@ -23,20 +23,10 @@ Program* QtCreator = new Program("Qt Creator",
                             vector<Problem*>{pr5,pr7,pr9,pr3});
 Program* Python = new Program("PyDev",
                             vector<Problem*>{pr9,pr8,pr6});
-Program* JS = new Program("JS",
-                            vector<Problem*>{pr9,pr8});
-User* userC1 = new User1("Пользователь С++", map<Program*, int>{{QtCreator, 3}, {VSC, 1}});
-User* userPython = new User2("Пользователь Pythone", map<Program*, int>{ {Python, 7}});
-User* userC2 = new User3("Пользователь С#", map<Program*, int>{{MSVS, 5}});
-User* userJS = new User2("Пользователь JS", map<Program*, int>{ {JS, 6}});
-vector<Program*> programs{MSVS, VSC, QtCreator, Python,JS};
-vector<User*> users{userC1,userPython,userC2,userJS};
-
-MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::MainWindow)
-{
-    ui->setupUi(this);
+//Program* JS = new Program("JS",
+ //  = new User2("Пользователь JS", map<Program*, int>{ {JS, 6}});
+vector<Program*> programs{MSVS, VSC, QtCreator, Python/*,JS*/};
+vector<User*> users{userC1,userPython,userC2/*,userJS*/
 
     int time = 100;
 
